@@ -1,3 +1,7 @@
+# NOTE: This is a legacy script for initial experiments. 
+# The final preprocessing logic is integrated into the notebooks.
+
+
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
