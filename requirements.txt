@@ -22,3 +22,5 @@ joblib
 # 주피터 노트북 환경
 jupyter
 ipykernel
+optuna
+catboost
