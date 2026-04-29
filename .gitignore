@@ -33,3 +33,8 @@ submission_*.csv
 .venv/
 env/
 .env
+
+# --- 모델 관련 ---
+catboost_info/tmp*.csv
+notebooks/*.csv
+notebooks/*.csv
