@@ -1,7 +1,39 @@
-.venv/
-data/
-submissions/
-*.csv
-__pycache__/
-.DS_Store
 .vscode/
+
+# --- Python 관련 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebook 관련 ---
+.ipynb_checkpoints/
+
+# --- macOS / OS 관련 ---
+.DS_Store
+Thumbs.db
+
+# --- 데이터 및 결과물 (용량 및 보안) ---
+data/
+*.pkl
+*.joblib
+*.model
+*.h5
+
+submissions/
+submission_*.csv
+
+# --- 환경 설정 및 가상환경 ---
+.venv/
+env/
+.env
+
+# --- 모델 실험 로그 및 임시 파일 (팀원 작업물 정리) ---
+# CatBoost 실행 시 생성되는 폴더와 내부 로그 전체 차단
+catboost_info/
+
+# 노트북 작업 중 생성되는 모든 임시 CSV 파일 차단 (데이터 유출 방지)
+**/*.csv
+!data/*.csv
+
+# 텍스트 로그 파일 차단
+*.log

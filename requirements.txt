@@ -1,7 +1,26 @@
+# 데이터 분석 및 전처리
 pandas
 numpy
-scikit-learn
+scipy
+
+# 시각화 (한글 폰트 지원 포함)
 matplotlib
 seaborn
+koreanize_matplotlib
+
+# 머신러닝 프레임워크 및 모델
+scikit-learn
+lightgbm
+catboost
+xgboost
+
+# 하이퍼파라미터 최적화 및 유틸리티
+optuna
+tqdm
+joblib
+
+# 주피터 노트북 환경
 jupyter
 ipykernel
+optuna
+catboost
